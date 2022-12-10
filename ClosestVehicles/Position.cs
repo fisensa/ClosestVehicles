@@ -21,7 +21,7 @@ namespace ClosestVehicles
 
         public string Name { get => _name; set => _name = value; }
 
-        public float Langitude { get => _longitude; set => _longitude = value; }
+        public float Longitude { get => _longitude; set => _longitude = value; }
 
         public float Latitude { get => _latitude; set => _latitude = value; }
 
