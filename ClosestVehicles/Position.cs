@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClosestVehicles
 {
-    internal class Position
+    //Not relevant at this case, but reduces work for the Garbage collector
+    public struct Position
     {
         private string _name;
         private float _longitude;
         private float _latitude;
-
+        
         public Position(string name, float latitude, float longitude)
         {
             _name = name;
